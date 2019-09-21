@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+    Create new
+{% endblock %}
+
+{% block body %}
+    <h1>Add new entry</h1>
+    <form class="" action="/create/" method="POST">
+
+        {% include 'partial/entry_form.html' with btn_text='Create' %}
+
+    </form>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% csrf_token %}
+
+{% for field in form %}
+    <div class="row">
+        <div class="">
+            <label for="">{{ field.label }}
+                {% if field.field.required %}
+                    <span class="text-danger">*</span>
+                {% endif %}
+            </label>
+            <p>{{ field }}</p>
+            {% for error in field.errors %}
+                <span class="">{{ error }}</span>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+
+<div class="row">
+    <div class="">
+        <button class="btn btn-success mr-2" type="submit">{{ btn_text }}</button>
+    </div>
+    <a href="{% url 'index' %}" class="btn btn-danger">Cancel</a>
+</div>

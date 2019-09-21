@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Update entry{% endblock %}
+
+{% block body %}
+    <h1 class="">Update entry</h1>
+    <form class="" action="/update/{{ entry.pk }}" method="POST">
+
+       {% include 'partial/entry_form.html' with btn_text='Update' %}
+
+    </form>
+{% endblock %}
