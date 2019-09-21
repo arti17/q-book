@@ -47,3 +47,9 @@ def update(request, pk):
             return redirect('index')
         else:
             return render(request, 'update.html', context={'form': form, 'entry': entry})
+
+
+def delete(request, pk):
+    entry = get_object_or_404(Entry, pk=pk)
+    entry.delete()
+    return redirect('index')
