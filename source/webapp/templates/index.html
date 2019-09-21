@@ -1,10 +1,31 @@
 {% extends 'base.html' %}
+{% load widget_tweaks %}
 
 {% block title %}Main page{% endblock %}
 
 {% block body %}
     <h1 class="text-center">Welcome to Q-book</h1>
     <br>
+    <form class="form-inline" action="/search/">
+        {% csrf_token %}
+        {% for field in form %}
+            <label class="sr-only" for="name">{{ field.label }}</label>
+            <div class="input-group mb-2 mr-sm-2 ml-auto">
+                {{ field|add_class:'form-control' }}
+
+                {% for error in field.errors %}
+                    <span class="text-danger">{{ error }}</span>
+                {% endfor %}
+            </div>
+        {% endfor %}
+
+        <button type="submit" class="btn btn-primary mb-2">Search</button>
+    </form>
+    <br>
+    {% if empty %}
+        <h2 class="text-center text-danger">No found entries</h2>
+    {% endif %}
+
     {% for entry in entries %}
         <div class="card">
             <div class="card-header">

@@ -3,15 +3,15 @@
 
 {% for field in form %}
     <div class="row">
-        <div class="">
+        <div class="form-group">
             <label for="">{{ field.label }}
                 {% if field.field.required %}
                     <span class="text-danger">*</span>
                 {% endif %}
             </label>
-            <p>{{ field|add_class }}</p>
+            <p>{{ field|add_class:'form-control'}}</p>
             {% for error in field.errors %}
-                <span class="">{{ error }}</span>
+                <span class="text-danger">{{ error }}</span>
             {% endfor %}
         </div>
     </div>
