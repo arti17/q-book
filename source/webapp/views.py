@@ -1,5 +1,7 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
+from .models import Entry
 
 
 def index(request):
-    return HttpResponse('<h1>Test</h1>')
+    entries = Entry.objects.filter(status='active').order_by('-create_date')
+    return render(request, 'index.html', {'entries': entries})
