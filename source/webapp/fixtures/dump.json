@@ -1,0 +1,116 @@
+[
+{
+  "model": "webapp.entry",
+  "pk": 1,
+  "fields": {
+    "author": "Arti",
+    "email": "arti17900@gmail.com",
+    "text": "Some text!",
+    "create_date": "2019-09-21T06:16:29.581Z",
+    "update_date": "2019-09-21T06:17:08.614Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.entry",
+  "pk": 2,
+  "fields": {
+    "author": "Bob",
+    "email": "bob@gmail.com",
+    "text": "Much evil soon high in hope do view. Out may few northward believing attempted. Yet timed being songs marry one defer men our. Although finished blessing do of. Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed number. Allowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match.",
+    "create_date": "2019-09-21T06:18:10.511Z",
+    "update_date": "2019-09-21T06:18:10.512Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.entry",
+  "pk": 3,
+  "fields": {
+    "author": "Jane",
+    "email": "jane@gmail.com",
+    "text": "It sportsman earnestly ye preserved an on. Moment led family sooner cannot her window pulled any. Or raillery if improved landlord to speaking hastened differed he. Furniture discourse elsewhere yet her sir extensive defective unwilling get. Why resolution one motionless you him thoroughly. Noise is round to in it quick timed doors. Written address greatly get attacks inhabit pursuit our but. Lasted hunted enough an up seeing in lively letter. Had judgment out opinions property the supplied.",
+    "create_date": "2019-09-21T06:18:42.871Z",
+    "update_date": "2019-09-21T06:18:42.871Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.entry",
+  "pk": 4,
+  "fields": {
+    "author": "Jack",
+    "email": "jack@gmail.com",
+    "text": "Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.",
+    "create_date": "2019-09-21T06:19:08.621Z",
+    "update_date": "2019-09-21T06:19:08.621Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.entry",
+  "pk": 5,
+  "fields": {
+    "author": "Marry",
+    "email": "marry@gmail.com",
+    "text": "Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Voice hours young woody has she think equal. Estate moment he at on wonder at season little. Six garden result summer set family esteem nay estate. End admiration mrs unreserved discovered comparison especially invitation.",
+    "create_date": "2019-09-21T06:19:42.286Z",
+    "update_date": "2019-09-21T06:19:42.287Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.entry",
+  "pk": 6,
+  "fields": {
+    "author": "Malik",
+    "email": "malik@gmail.com",
+    "text": "Was drawing natural fat respect husband. An as noisy an offer drawn blush place. These tried for way joy wrote witty. In mr began music weeks after at begin. Education no dejection so direction pretended household do to. Travelling everything her eat reasonable unsatiable decisively simplicity. Morning request be lasting it fortune demands highest of.",
+    "create_date": "2019-09-21T06:20:44.313Z",
+    "update_date": "2019-09-21T06:20:44.313Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.entry",
+  "pk": 7,
+  "fields": {
+    "author": "Sara",
+    "email": "sara@gmail.com",
+    "text": "Particular unaffected projection sentiments no my. Music marry as at cause party worth weeks. Saw how marianne graceful dissuade new outlived prospect followed. Uneasy no settle whence nature narrow in afraid. At could merit by keeps child. While dried maids on he of linen in.",
+    "create_date": "2019-09-21T06:21:14.632Z",
+    "update_date": "2019-09-21T06:21:14.632Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.entry",
+  "pk": 8,
+  "fields": {
+    "author": "Terminator",
+    "email": "terminator@gmail.com",
+    "text": "Now residence dashwoods she excellent you. Shade being under his bed her. Much read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant horrible but confined day end marriage. Eagerness furniture set preserved far recommend. Did even but nor are most gave hope. Secure active living depend son repair day ladies now.",
+    "create_date": "2019-09-21T06:21:45.435Z",
+    "update_date": "2019-09-21T06:22:04.573Z",
+    "status": "active"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$hMIrOzTJOeaj$/477VhE5ZybPMLCpSu3FOS6FYWSNkhB7lOFY5IjQHSg=",
+    "last_login": "2019-09-21T06:14:49.436Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-21T06:14:34.422Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
