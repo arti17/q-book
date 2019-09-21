@@ -1,3 +1,4 @@
+{% load widget_tweaks %}
 {% csrf_token %}
 
 {% for field in form %}
@@ -8,7 +9,7 @@
                     <span class="text-danger">*</span>
                 {% endif %}
             </label>
-            <p>{{ field }}</p>
+            <p>{{ field|add_class }}</p>
             {% for error in field.errors %}
                 <span class="">{{ error }}</span>
             {% endfor %}
